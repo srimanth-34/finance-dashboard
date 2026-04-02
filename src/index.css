@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background:#f3f4f6;
+   font-family: 'Inter', sans-serif;
+/* 🔥 Neon Glow Effect */
+.neon-border {
+  border: 2px solid #f19e63;
+  box-shadow:
+    0 0 5px #7b7de2,
+    0 0 10px #6366f1,
+    0 0 20px #6366f1;
+}
+
+.dark .neon-border {
+  border: 2px solid #22eeee;
+  box-shadow:
+    0 0 5px #22d3ee,
+    0 0 10px #22d3ee,
+    0 0 20px #22d3ee;
+}
+
+}
